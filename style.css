@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+.wrapper { 
+  width: 300px;
+  margin-inline: auto;
+  position: relative;
+  margin-top: 5rem;
+  overflow: hidden;
+}
+
+.pictures {
+  display: flex;
+  position: relative;
+  left: -300px;
+  transition: left 0.7s ease;
+}
+
+.picture {
+  width: 300px;
+  height: 300px;
+  /* object-fit: cover; */ 
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: black;
+  background-color: transparent;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
