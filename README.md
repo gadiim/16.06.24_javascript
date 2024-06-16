@@ -2,6 +2,7 @@
 TEST (image slider )
 
 https://randomuser.me/
+
 0.Зробити запит за отриманням даних:
 https://randomuser.me/api/?results=3
 
